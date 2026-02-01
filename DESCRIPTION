@@ -1,0 +1,21 @@
+Package: impudate
+Title: Tools for Partially Missing Dates
+Version: 0.0.1
+Authors@R: c(
+    person("Nate", "Osher", email = "nateosher@gmail.com", role = c("aut", "cre"))
+  )
+Description: Utilities for working with partially missing dates, including
+    extraction of year, month, and day components from incomplete date fields.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    rlang,
+    stringr
+Suggests:
+    testthat (>= 3.0.0),
+    tibble,
+    roxygen2
+Config/testthat/edition: 3
